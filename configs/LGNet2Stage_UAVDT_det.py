@@ -7,7 +7,7 @@ model = dict(
     type='LGNet2Stage',
     custom_cfg = dict(fpn_out_channels = 256,
    
-    text_feats_path = 'text_learner/uavdt_text_fetas.pth',
+    text_feats_path = 'text_learner/uavdt_text_feats.pth',
     sim_loss_weights = 0.5,
     unsim_loss_weights = 0.5,
     sim_method = 'cosin'# l2 or cosine
