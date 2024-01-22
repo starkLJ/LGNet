@@ -1,0 +1,26 @@
+# Ignore cache files
+__pycache__/
+*.pyc
+
+# Ignore PyTorch model files
+*.pth
+*.pt
+
+# Ignore images
+*.jpg
+*.png
+*.jpeg
+*.gif
+
+# Ignore text and data files
+*.txt
+*.csv
+*.json
+!UAVDT_test_coco.json
+!UAVDT_train_coco.json
+!instances_UAVval.json
+!instances_UAVtrain.json
+
+# Ignore virtual environments
+venv/
+env/
