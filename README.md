@@ -55,6 +55,7 @@ python train.py configs/xxxx.py
 
 If you find this repository helpful, please consider citing our paper:
 
+```shell
 @article{LIU2024123221,
 title = {Shooting Condition Insensitive Unmanned Aerial Vehicle Object Detection},
 journal = {Expert Systems with Applications},
@@ -66,3 +67,4 @@ doi = {https://doi.org/10.1016/j.eswa.2024.123221},
 url = {https://www.sciencedirect.com/science/article/pii/S0957417424000861},
 author = {Jie Liu and Jinzong Cui and Mao Ye and Xiatian Zhu and Song Tang},
 }
+```
