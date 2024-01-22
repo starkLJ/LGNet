@@ -11,6 +11,7 @@ You can also convert the dataset annotations to the COCO format. For your conven
 
 Please organize the datasets as follows:
 
+```shell
 DATA
 ├─ UAVDT
 │  ├─ annotations
@@ -38,7 +39,7 @@ DATA
 │  │  ├─ instances_UAVval
 │  │  │  ├─ xxxx.jpg
 │  │  │  └─ ...
-
+```
 
 
 ## Text Prompt Embedding Fine-Tuning
