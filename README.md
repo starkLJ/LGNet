@@ -12,29 +12,29 @@ You can also convert the dataset annotations to the COCO format. For your conven
 Please organize the datasets as follows:
 
 DATA
--> UAVDT 
--->annotations
----->UAVDT_test_coco.json
----->UAVDT_train_coco.json
--->images
----->test
------->M0203
+-> UAVDT
+--> annotations
+----> UAVDT_test_coco.json
+----> UAVDT_train_coco.json
+--> images
+----> test
+------> M0203
 ...
------->Mxxxx
---------->xxxx.jpg
+------> Mxxxx
+---------> xxxx.jpg
 ----> train
 ------> M0101
---------->xxxx.jpg
+---------> xxxx.jpg
 
-->visdrone_coco
--->annotations
----->instances_UAVval.json
----->instances_UAVtrain.json
--->images
----->instances_UAVtrain
------->xxxx.jpg
----->instances_UAVval
------->xxxx.jpg
+-> visdrone_coco
+--> annotations
+----> instances_UAVval.json
+----> instances_UAVtrain.json
+--> images
+----> instances_UAVtrain
+------> xxxx.jpg
+----> instances_UAVval
+------> xxxx.jpg
 
 
 ## Text Prompt Embedding Fine-Tuning
