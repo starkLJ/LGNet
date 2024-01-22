@@ -20,6 +20,7 @@ __pycache__/
 !UAVDT_train_coco.json
 !instances_UAVval.json
 !instances_UAVtrain.json
+!requirements.txt
 
 # Ignore virtual environments
 venv/
