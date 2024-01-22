@@ -12,29 +12,33 @@ You can also convert the dataset annotations to the COCO format. For your conven
 Please organize the datasets as follows:
 
 DATA
--> UAVDT
---> annotations
-----> UAVDT_test_coco.json
-----> UAVDT_train_coco.json
---> images
-----> test
-------> M0203
-...
-------> Mxxxx
----------> xxxx.jpg
-----> train
-------> M0101
----------> xxxx.jpg
+├─ UAVDT
+│  ├─ annotations
+│  │  ├─ UAVDT_test_coco.json
+│  │  ├─ UAVDT_train_coco.json
+│  ├─ images
+│  │  ├─ test
+│  │  │  ├─ M0203
+│  │  │  │  ├─ xxxx.jpg
+│  │  │  │  └─ ...
+│  │  │  └─ ...
+│  │  ├─ train
+│  │  │  ├─ M0101
+│  │  │  │  ├─ xxxx.jpg
+│  │  │  │  └─ ...
+│  │  │  └─ ...
+├─ visdrone_coco
+│  ├─ annotations
+│  │  ├─ instances_UAVval.json
+│  │  ├─ instances_UAVtrain.json
+│  ├─ images
+│  │  ├─ instances_UAVtrain
+│  │  │  ├─ xxxx.jpg
+│  │  │  └─ ...
+│  │  ├─ instances_UAVval
+│  │  │  ├─ xxxx.jpg
+│  │  │  └─ ...
 
--> visdrone_coco
---> annotations
-----> instances_UAVval.json
-----> instances_UAVtrain.json
---> images
-----> instances_UAVtrain
-------> xxxx.jpg
-----> instances_UAVval
-------> xxxx.jpg
 
 
 ## Text Prompt Embedding Fine-Tuning
@@ -46,6 +50,7 @@ Please note that training is supported on a single GPU:
 
 ```shell
 python train.py configs/xxxx.py
+```
 
 If you find this repository helpful, please consider citing our paper:
 
