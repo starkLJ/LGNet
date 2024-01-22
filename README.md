@@ -3,6 +3,8 @@
 This project contains the code for the paper "Shooting Condition Insensitive Unmanned Aerial Vehicle Object Detection" and relies on mmdetection 2.x.
 
 ## Environment Setup
+We recommend configuring mmdetection according to https://github.com/open-mmlab/mmdetection/tree/2.x, and for other environment and dependency setups, please refer to the environment specified in requirements.txt.
+
 After preparing the environment, you can download the following datasets:
 - UAVDT dataset can be downloaded from [here](https://sites.google.com/view/grli-uavdt/%E9%A6%96%E9%A1%B5)
 - VisDrone dataset can be downloaded from [here](https://github.com/VisDrone/VisDrone-Dataset)
